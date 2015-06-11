@@ -43,38 +43,9 @@ a {
 	text-decoration:none;
 }
 
-#sponsor1 {
-	color: #ffffff;
-	top: 34.25%;
-	left: 8.5%;
-	font-family: "Helvetica Neue", Helvetica;
-
-	-ms-transform: rotate(6deg);
-	-webkit-transform: rotate(6deg);
-	transform: rotate(6deg);
-}
-
-#sponsor2 {
-	color: #ffffff;
-	top: 35.125%;
-	left: 29%;
-	font-family: "Helvetica Neue", Helvetica;
-
-	-ms-transform: rotate(1deg);
-	-webkit-transform: rotate(1deg);
-	transform: rotate(1deg);
-}
-
-#sponsor3 {
+#botSponsor {
 	color: #ffffff;
 	top: 35.25%;
-	left: 46.5%;
-	font-family: "Helvetica Neue", Helvetica;
-}
-
-#sponsor4 {
-	color: #ffffff;
-	top: 35.125%;
 	left: 65%;
 	font-family: "Helvetica Neue", Helvetica;
 
