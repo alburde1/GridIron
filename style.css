@@ -64,3 +64,14 @@ a {
 	-webkit-transform: rotate(-2deg);
 	transform: rotate(-2deg);
 }
+
+#boozAllenSponsor {
+	color: #ffffff;
+	top: 35%;
+	left: 27.25%;
+	font-family: "Helvetica Neue", Helvetica;
+
+	-ms-transform: rotate(2deg);
+	-webkit-transform: rotate(2deg);
+	transform: rotate(2deg);
+}
