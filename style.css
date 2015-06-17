@@ -1,5 +1,7 @@
 body{
-	background-color: #939597;
+	background-image: url("backgroundGradient.jpg");
+	background-repeat: repeat-x;
+	background-size: 2px 100%;
 	margin: 0;
 }
 
@@ -15,11 +17,10 @@ body{
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: -40px;
 
-	-moz-box-shadow: 0 0 10px 2px #555;
-    -webkit-box-shadow: 0 0 10px 2px #555;
-	box-shadow: 0 0 10px 2px #555;
+	-moz-box-shadow: 0 0 100px -3px #fff;
+    -webkit-box-shadow: 0 0 100px -3px #fff;
+	box-shadow: 0 0 100px -3px #fff;
 }
 
 img {
@@ -30,23 +31,17 @@ img {
 .aboveImage {
 	position: absolute;
 	top: 0;
+	z-index: 2;
 }
 
 #mainText {
-	background-color: #ffffff;
-	padding-bottom: 45px;
-	padding-top: 2%;
+	width: 85%;
+	margin-left: 7.5%;
+	top: 10%;
 }
 
 #mainText p {
-	padding: 0.5%;
-	margin-top: 0;
-}
-
-#mainText img {
-	position: relative;
-	width: 40%;
-	text-align: right;
+	font-family: 'Arvo', serif;
 }
 
 a {
@@ -56,8 +51,8 @@ a {
 
 #botSponsor {
 	color: #ffffff;
-	top: 35.25%;
-	left: 65%;
+	top: 47%;
+	left: 64.75%;
 	font-family: "Helvetica Neue", Helvetica;
 
 	-ms-transform: rotate(-2deg);
@@ -67,7 +62,7 @@ a {
 
 #boozAllenSponsor {
 	color: #ffffff;
-	top: 35%;
+	top: 47%;
 	left: 27.25%;
 	font-family: "Helvetica Neue", Helvetica;
 

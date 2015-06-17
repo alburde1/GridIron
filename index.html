@@ -2,21 +2,22 @@
 <html lang="en" class="js">
 <head>
 	<link rel="stylesheet" href="style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body>
 	<div id="content">
-		<div class="pageHeader" id="mainText">
-			<img src="GridIronLogo.png"></img>
-			<p>DevOps isn't a tool, or a job, or even a practice. DevOps is a culture. A culture that can best be understood by taking a walk on to the gridiron of American Football. Football is a sport that exemplifies teamwork, built on specialties, but only successful in unity. Booz Allen's GridIron Ops framework was created to provide a platform to establish a winning DevOps culture in any sized government or commercial entity.</p>
-		</div>
+		
 		<div id="imgContent">
+			<div class="aboveImage" id="mainText">
+				<p>DevOps isn't a tool, or a job, or even a practice. DevOps is a culture. A culture that can best be understood by taking a walk on to the gridiron of American Football. Football is a sport that exemplifies teamwork, built on specialties, but only successful in unity. Booz Allen's GridIron Ops framework was created to provide a platform to establish a winning DevOps culture in any sized government or commercial entity.</p>
+			</div>
 			<img src="footballBackground.jpg" />
 			<div class="aboveImage" id="botSponsor">
-				<a href="http://thoughtbot.github.io/bah-bot/">BOT</a>
+				<a href="#">BOT</a>
 			</div>
 			<div class="aboveImage" id="boozAllenSponsor">
-				<a href="http://thoughtbot.github.io/bah-bot/">Booz | Allen</a>
+				<a href="#">Booz | Allen</a>
 			</div>
 
 
@@ -31,15 +32,7 @@
 					$("#imgContent").height(imgHeight);
 					$("#mainText p").css({fontSize:(imgHeight/70)+'px'});
 					$("#botSponsor").css({fontSize:(imgHeight/80)+'px'});
-					$("#boozAllenSponsor").css({fontSize:(imgHeight/90)+'px'});
-
-					if($('#imgContent img').width() >= 1000) {
-						var textPadding = (window.innerWidth-900)/2;
-						$("#mainText").css({paddingLeft: textPadding+'px',paddingRight: textPadding+'px', paddingTop: '20px'});
-					}
-					else {
-						$("#mainText").css({paddingLeft: '5%',paddingRight: '5%', paddingTop: '2%'});
-					}
+					$("#boozAllenSponsor").css({fontSize:(imgHeight/110)+'px'});
 				});
 
 				window.addEventListener('resize', function(){
@@ -52,15 +45,7 @@
 					$("#imgContent").height(imgHeight);
 					$("#mainText p").css({fontSize:(imgHeight/70)+'px'});
 					$("#botSponsor").css({fontSize:(imgHeight/80)+'px'});
-					$("#boozAllenSponsor").css({fontSize:(imgHeight/90)+'px'});
-
-					if($('#imgContent img').width() >= 1000) {
-						var textPadding = (window.innerWidth-900)/2;
-						$("#mainText").css({paddingLeft: textPadding+'px',paddingRight: textPadding+'px', paddingTop: '20px'});
-					}
-					else {
-						$("#mainText").css({paddingLeft: '5%',paddingRight: '5%', paddingTop: '2%'});
-					}
+					$("#boozAllenSponsor").css({fontSize:(imgHeight/110)+'px'});
 				});
 			</script>
 		</div>
